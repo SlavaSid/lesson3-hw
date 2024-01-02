@@ -9,7 +9,7 @@ export const TableBody = ({columns, tableData}) => {
             <tr key={data.id}>
                {columns.map(({key}) => (
                     
-                    <td key={key}>{data[key] ? data[key] : 'Нет данных'}</td>
+                    <td key={key}>{data[key] || 'Нет данных'}</td>
                 ) )}
             </tr>
            ))} 
