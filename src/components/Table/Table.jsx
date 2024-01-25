@@ -4,7 +4,7 @@ import "./Table.css";
 import { useState } from "react";
 import { TableHead } from "./TableHead/TableHead";
 import { TableBody } from "./TableBody/TableBody";
-import { useSortableTable } from "../../useSortableTableC"
+import { useSortableTable } from "../../useSortableTable"
 
 
 export const Table = ({columns, data}) => {
